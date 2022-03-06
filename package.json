@@ -1,6 +1,6 @@
 {
     "name": "static-websites-template",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "Alan Bernal E.",
     "description": "Plantilla de proyecto para sitios estáticos con Laravel Mix.",
     "keywords": [
@@ -24,8 +24,8 @@
         "browser-sync": "^2.27.7",
         "browser-sync-webpack-plugin": "^2.3.0",
         "jquery": "^3.6.0",
-        "laravel-mix": "^6.0.41",
-        "sass": "^1.49.7",
-        "sass-loader": "^12.1.0"
+        "laravel-mix": "^6.0.43",
+        "sass": "^1.49.9",
+        "sass-loader": "^12.6.0"
     }
 }

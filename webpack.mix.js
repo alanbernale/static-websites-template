@@ -1,12 +1,13 @@
 const mix = require('laravel-mix');
 
 mix
-    .js('src/js/app.js', 'js/app.min.js')
-    .sass('src/sass/app.scss', 'css/app.min.css')
+    .setPublicPath('build')
+    .js('src/js/app.js', 'build/js/app.min.js')
+    .sass('src/sass/app.scss', 'build/css/app.min.css')
     .options({
         processCssUrls: false
     })
-    .setPublicPath('build')
+    .sourceMaps(false, 'source-map')
     .disableSuccessNotifications()
     .browserSync({
         server: {
